@@ -28,14 +28,14 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, "Option Reset", Toast.LENGTH_LONG).show()
 
            timeDayEdit.setText("")
-            displaySuggest.setText("")
+            displaySuggest.setText("Meal reccomendations:")
         }
 
         showOptions?.setOnClickListener {
             Toast.makeText(this@MainActivity, "Options generated", Toast.LENGTH_LONG).show()
 
 
-            if (timeDayEdit.text.toString()=="morning")
+            if (timeDayEdit.text.toString()=="Morning")
             {
                 displaySuggest.setText("The recommended meal is Eggs")
             }
@@ -60,12 +60,6 @@ class MainActivity : AppCompatActivity() {
             {
                 displaySuggest.setText("The recommended meal is a dessert such as ice cream")
             }
-
-
-
-
-
-
 
 
         }
