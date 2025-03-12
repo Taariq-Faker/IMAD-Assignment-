@@ -35,28 +35,28 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, "Options generated", Toast.LENGTH_LONG).show()
 
 
-            if (timeDayEdit.text.toString()=="Morning")
+            if (timeDayEdit.text.toString().equals("Morning",ignoreCase = true))
             {
                 displaySuggest.setText("The recommended meal is Eggs")
             }
-            else if (timeDayEdit.text.toString()=="Mid-morning Snack")
+            else if (timeDayEdit.text.toString().equals("Mid-morning Snack", ignoreCase = true))
             {
                 displaySuggest.setText("The recommended meal is a light snack,such as a fruit")
             }
-            else if (timeDayEdit.text.toString()=="lunch")
+            else if (timeDayEdit.text.toString().equals("lunch",ignoreCase = true))
             {
                 displaySuggest.setText("The recommended meal is burger")
 
             }
-            else if (timeDayEdit.text.toString()=="Afternoon Snack")
+            else if (timeDayEdit.text.toString().equals("Afternoon Snack",ignoreCase = true))
             {
                 displaySuggest.setText("The recommended meal is a quick bite such as a cake or other sweet treats")
             }
-            else if (timeDayEdit.text.toString()=="Main Course")
+            else if (timeDayEdit.text.toString().equals("Main Course",ignoreCase = true))
             {
                 displaySuggest.setText("The recommended meal is is Pasta")
             }
-            else if (timeDayEdit.text.toString()=="After Dinner Snack ")
+            else if (timeDayEdit.text.toString().equals("After Dinner Snack ",ignoreCase = true))
             {
                 displaySuggest.setText("The recommended meal is a dessert such as ice cream")
             }
