@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             //Resetting the time of day textbox once the reset button is clicked
            timeDayEdit.setText("")
             //Reseting the display box to its original display once the reset button is clicked
-            displaySuggest.setText("Meal reccomendations:")
+            displaySuggest.setText("Please enter one of the following:\n" + "Morning\n" + " Mid morning Snack\n" + "Lunch\n" + "Afternoon Snack\n" + "Main Course\n" + "After Dinner Snack")
         }
 
             //Coding the Show Options button so it does what is intended once clicked
@@ -52,35 +52,35 @@ class MainActivity : AppCompatActivity() {
             if (timeDayEdit.text.toString().equals("Morning",ignoreCase = true))
             {
                 //Displays the required output based on the user input by using the setText method in order to display it in the text field
-                displaySuggest.setText("The recommended meal is Eggs")
+                displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is Eggs")
             }
 
             //Using else statements in order to display different result based on what the user entered
             else if (timeDayEdit.text.toString().equals("Mid morning Snack", ignoreCase = true))
             {
-                displaySuggest.setText("The recommended meal is a light snack, such as a fruit")
+                displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is a light snack, such as a fruit")
             }
             else if (timeDayEdit.text.toString().equals("lunch",ignoreCase = true))
             {
-                displaySuggest.setText("The recommended meal is a burger")
+                displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is a burger")
 
             }
             else if (timeDayEdit.text.toString().equals("Afternoon Snack",ignoreCase = true))
             {
-                displaySuggest.setText("The recommended meal is a quick bite such as a cake ")
+                displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is a quick bite such as a cake ")
             }
             else if (timeDayEdit.text.toString().equals("Main Course",ignoreCase = true))
             {
-                displaySuggest.setText("The recommended meal is a Pasta")
+                displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is a Pasta")
             }
             else if (timeDayEdit.text.toString().equals("After dinner Snack",ignoreCase = true))
             {
-                displaySuggest.setText("The recommended meal is a dessert ")
+                displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is a dessert ")
             }
             else {
                 // Check if the input enter by user is valid if not it display a message to show them the options they are allowed to enter as well as display a message once the button is clicked
                 Toast.makeText(this@MainActivity, "Invalid input! Please enter a valid meal time.", Toast.LENGTH_LONG).show()
-                displaySuggest.setText("Invalid input. Please enter one of the following:\n" + "Morning\n" + "Mid morning Snack\n" + "Lunch\n" + "Afternoon Snack\n" + "Main Course\n" + "After Dinner Snack"
+                displaySuggest.setText("Invalid input. Please enter one of the following:\n" + "Morning\n" + " Mid morning Snack\n" + "Lunch\n" + "Afternoon Snack\n" + "Main Course\n" + "After Dinner Snack"
                 )
             }
 
