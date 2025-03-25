@@ -8,6 +8,8 @@ https://github.com/Taariq-Faker/IMAD-Assignment-
 
 The purpose of the App is to provide the user the abilty to enter a time of day and recieve a reccomended meal for that specific time.
 For Example, if the user enter "morning" the app will display the reccomened meal for the morning.
+If the user enters a option which is not given the App will display a error message and prompt the user to re-enter a option
+
 ## Installation
 
 - Go to Github link and download the code 
@@ -27,10 +29,13 @@ For Example, if the user enter "morning" the app will display the reccomened mea
 ## Features
 
 - Ability to genrate multiple Reccomendations
+  
 - Abilty to reset options
  
 ## Design Considerations
 - Minimalistic Design
+
+- Simple background image
 
 - Easy to navigate
 
@@ -39,13 +44,15 @@ For Example, if the user enter "morning" the app will display the reccomened mea
 ## Screenshots
 - Landing Page
 
-![Screenshot 2025-03-25 214735](https://github.com/user-attachments/assets/d449e1e8-f56e-4e20-bcdb-1e77b2bba466)
+
+![new landing page](https://github.com/user-attachments/assets/639498ad-40f7-47f5-9d75-f6bc3562070d)
 
 
 - Input added
 
 
-![Screenshot 2025-03-25 214849](https://github.com/user-attachments/assets/5c091d5f-def7-42bc-a607-c2cd8e598956)
+
+![Input page](https://github.com/user-attachments/assets/1b9e171e-b085-4c59-934d-ab5f31d7cd82)
 
 
 - Error message shown when incorrect input given
