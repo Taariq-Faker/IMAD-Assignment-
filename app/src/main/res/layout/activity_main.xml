@@ -63,6 +63,7 @@
         android:layout_marginBottom="108dp"
         android:editable="true"
         android:ems="10"
+        android:hint="Example:Morning"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

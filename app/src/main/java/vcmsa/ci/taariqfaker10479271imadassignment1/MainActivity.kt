@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-
+        //Declaring variables
         val resetButton = findViewById<Button>(R.id.resetButton)
 
         val displaySuggest = findViewById<TextView>(R.id.displaySugget)
