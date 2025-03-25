@@ -29,19 +29,22 @@ For Example, if the user enter "morning" the app will display the reccomened mea
 - Ability to genrate multiple Reccomendations
 - Abilty to reset options
  
-
-
-
 ## Design Considerations
 - Minimalistic Design
 
 - Easy to navigate
 
 - Easy to understand
+
 ## Screenshots
+Landing Page
+![Screenshot 2025-03-25 153310](https://github.com/user-attachments/assets/4ddd6c84-528e-41f3-9d21-1e2a1f0a6121)
 
+Input added
+![Screenshot 2025-03-25 153641](https://github.com/user-attachments/assets/df3cddc9-80c5-4751-89ba-67ac84f9e94a)
 
-
+Error message shown when incorrect input given
+![Screenshot 2025-03-25 153710](https://github.com/user-attachments/assets/78fe173e-0ce2-457f-adf3-72117d8e3f3f)
 
 ## Github Utilization
 
