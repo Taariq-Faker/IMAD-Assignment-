@@ -39,17 +39,20 @@ For Example, if the user enter "morning" the app will display the reccomened mea
 ## Screenshots
 - Landing Page
 
-![Screenshot 2025-03-25 153310](https://github.com/user-attachments/assets/4ddd6c84-528e-41f3-9d21-1e2a1f0a6121)
+![Screenshot 2025-03-25 214735](https://github.com/user-attachments/assets/d449e1e8-f56e-4e20-bcdb-1e77b2bba466)
+
 
 - Input added
 
 
-![Screenshot 2025-03-25 153641](https://github.com/user-attachments/assets/df3cddc9-80c5-4751-89ba-67ac84f9e94a)
+![Screenshot 2025-03-25 214849](https://github.com/user-attachments/assets/5c091d5f-def7-42bc-a607-c2cd8e598956)
+
 
 - Error message shown when incorrect input given
 
+![Screenshot 2025-03-25 214812](https://github.com/user-attachments/assets/5a41483f-aa68-419e-be4d-bf3d3c1f37e3)
 
-![Screenshot 2025-03-25 153710](https://github.com/user-attachments/assets/78fe173e-0ce2-457f-adf3-72117d8e3f3f)
+
 
 ## Github Utilization
 
