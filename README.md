@@ -4,6 +4,9 @@
 ## Link to Github Repository
 https://github.com/Taariq-Faker/IMAD-Assignment-
 
+## Link to Youtube
+https://youtu.be/1cjg2NoYBAg
+
 ## Purpose:
 
 The purpose of the App is to provide the user the abilty to enter a time of day and recieve a reccomended meal for that specific time.
@@ -69,8 +72,4 @@ Used github in order to upload my code and backup my project on a regular basis
 Used a workflow to test the code of the appliction once it is pushed to github.
 If the test passes the code is then safe to merge.
 If it fails  it will show error logs so that you can fix it
-## 🔗 Links
-https://github.com/Taariq-Faker/IMAD-Assignment- 
 
-Youtube Link
-https://youtu.be/1cjg2NoYBAg
