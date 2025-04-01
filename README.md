@@ -66,5 +66,8 @@ If the user enters a option which is not given the App will display a error mess
 Used github in order to upload my code and backup my project on a regular basis 
 
 ## Github Actions
+Used a workflow to test the code of the appliction once it is pushed to github.
+If the test passes the code is then safe to merge.
+If it fails  it will show error logs so that you can fix it
 ## 🔗 Links
 https://github.com/Taariq-Faker/IMAD-Assignment- 
