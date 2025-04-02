@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             //Resetting the time of day textbox once the reset button is clicked
            timeDayEdit.setText("")
             //Reseting the display box to its original display once the reset button is clicked
-            displaySuggest.setText("Please enter one of the following:\n" + "Morning\n" + " Mid morning Snack\n" + "Lunch\n" + "Afternoon Snack\n" + "Main Course\n" + "After Dinner Snack")
+            displaySuggest.setText("Please enter one of the following:\n" + "Morning\n" + " Mid morning Snack\n" + "Lunch\n" + "Afternoon Snack\n" + "Dinner\n" + "After Dinner Snack")
         }
 
             //Coding the Show Options button so it does what is intended once clicked
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             {
                 displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is a quick bite such as a cake ")
             }
-            else if (timeDayEdit.text.toString().equals("Main Course",ignoreCase = true))
+            else if (timeDayEdit.text.toString().equals("Dinner",ignoreCase = true))
             {
                 displaySuggest.setText("Meal reccomendations: \n"+ "The recommended meal is a Pasta")
             }
@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
             else {
                 // Check if the input enter by user is valid if not it display a message to show them the options they are allowed to enter as well as display a message once the button is clicked
                 Toast.makeText(this@MainActivity, "Invalid input! Please enter a valid meal time.", Toast.LENGTH_LONG).show()
-                displaySuggest.setText("Invalid input. Please enter one of the following:\n" + "Morning\n" + " Mid morning Snack\n" + "Lunch\n" + "Afternoon Snack\n" + "Main Course\n" + "After Dinner Snack"
+                displaySuggest.setText("Invalid input. Please enter one of the following:\n" + "Morning\n" + " Mid morning Snack\n" + "Lunch\n" + "Afternoon Snack\n" + "Dinner\n" + "After Dinner Snack"
                 )
             }
 

@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:text="Please enter one of the following:\n Morning\n  Mid morning Snack\n Lunch\n Afternoon Snack \n Main Course\n After Dinner Snack"
+        android:text="Please enter one of the following:\n Morning\n  Mid morning Snack\n Lunch\n Afternoon Snack \n Dinner\n After Dinner Snack"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="16sp"
